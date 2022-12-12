@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page replica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <style>
+        div.polaroid {
+            width: 100%;
+            float: right;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+        }
+
+        div.container {
+            text-align: center;
+            padding: 10px 20px;
+            font-family: 'PT Serif', serif;
+            background-color: gray;
+
+        }
+
+        p.text {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: x-large;
+        }
+
+        input[type=text] {
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            background-color: whitesmoke;
+        }
+
+        body {
+            margin: 2px;
+            display: grid;
+            column-gap: 10px;
+            grid-template-columns: auto auto;
+            background-color: whitesmoke;
+            padding: 10px;
+
+        }
+
+        div.top-c {
+            font-family: 'Lora', serif;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: whitesmoke;
+            font-size: large;
+        }
+
+        label {
+            font-family: 'Overpass', sans-serif;
+
+        }
+
+        button.ac-bt {
+            width: 70%;
+            font-family: 'M PLUS 1p', sans-serif;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+
+        }
+
+        button.ac-bt:hover {
+            cursor: pointer;
+            color: black;
+
+        }
+
+        button.ggsupbt {
+            font-family: 'M PLUS 1p', sans-serif;
+            border-radius: 8px;
+            background-color: grey;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        button.ggsupbt:hover {
+            cursor: pointer;
+            color: black;
+
+        }
+
+        span {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        a.login {
+            text-decoration: solid;
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset class="field-1">
+        <section>
+            <p class="text">Create an account</p><br><br>
+            <form>
+                <label for="name">Name</label><br><br>
+                <input type="text" id="name"><br><br><br><br>
+                <label for="email">Email</label><br><br>
+                <input type="text" id="email"><br><br><br><br>
+                <label for="password">Password</label><br><br>
+                <input type="text" id="Password"><br><br><br><br>
+                <button class="ac-bt">Create account</button><br><br>
+                <button class="ggsupbt">Sign up with Google</button><br><br><br><br>
+                <Span>Already have an account? <a class="login" href="">Log in</a></Span>
+            </form>
+        </section>
+    </fieldset>
+    <fieldset class="field-2">
+        <section>
+            <div class="polaroid">
+                <div class="top-c">
+                    <p>We are often taught to look for the beauty in all things, so in finding it, the layman asks the
+                        philosopher while the philosopher asks the photographer.</p>
+                </div>
+                <img src="pexels-jasmin-chew-14664638.jpg" alt="5 Terre" width="100%">
+                <div class="container">
+                    <h1>Jasmin Chew</h1>
+                    <h3>Instagram Model</h3>
+                </div>
+            </div>
+        </section>
+    </fieldset>
+
+</body>
+
+</html>
